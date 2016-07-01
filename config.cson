@@ -1,0 +1,33 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "link"
+      "linter-csslint"
+    ]
+  editor:
+    fontFamily: "D2Coding.ttf"
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+  emmet:
+    useEmmetComments: true
+  "exception-reporting":
+    userId: "c02747bf-42ef-306f-3c1c-895bf7a31fd3"
+  linter: {}
+  "quick-highlight": {}
+  "w3c-validation":
+    cssProfile: "none"
+    cssReportType: "all"
+    hideOnNoErrors: true
+    validateOnSave: false
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".gfm.source":
+  "wrap-guide":
+    enabled: true
