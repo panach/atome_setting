@@ -28,6 +28,10 @@
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
+    ignoreWhitespaceOnlyLines: true
+".diff.source":
+  editor:
+    tabLength: 4
 ".gfm.source":
   "wrap-guide":
     enabled: true
