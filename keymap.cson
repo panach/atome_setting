@@ -33,7 +33,9 @@
 
 
 'body':
-  'ctrl-shift-w': 'core:close'
+  'ctrl-shift-w': 'core:close',
+  'ctrl-1': 'window:focus-next-pane',
+  'ctrl-2': 'window:focus-previous-pane'
 'atom-workspace atom-text-editor:not([mini])':
   'shift-enter': 'editor:duplicate-lines'
 'atom-text-editor:not([mini])':
@@ -48,6 +50,6 @@
   'alt-down': 'emmet:decrement-number-by-1',
   'alt-up': 'emmet:increment-number-by-1',
   'ctrl-alt-/': 'emmet:matching-pair',
-  'ctrl-1': 'emmet:update-image-size'
+  'ctrl-3': 'emmet:update-image-size'
 '.pane .editor:not(.mini)':
   'cmd-/': 'native!'

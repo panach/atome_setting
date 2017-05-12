@@ -4,26 +4,58 @@
     destroyEmptyPanes: false
     disabledPackages: [
       "link"
-      "linter-csslint"
+      "w3c-validation"
     ]
+    followSymlinks: false
+    telemetryConsent: "limited"
   editor:
     fontFamily: "D2Coding.ttf"
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
-    tabLength: 4
   emmet:
     useEmmetComments: true
   "exception-reporting":
     userId: "c02747bf-42ef-306f-3c1c-895bf7a31fd3"
+  "git-diff": {}
+  "git-plus":
+    general:
+      _analyticsUserId: "d7e025ba-5ff0-499d-b85e-2a74586e4098"
   linter: {}
+  "linter-ui-default":
+    panelHeight: 71
+    panelTakesMinimumHeight: false
+    showPanel: true
+    showProviderName: true
+  "markdown-preview":
+    breakOnSingleNewline: true
+    useGitHubStyle: true
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "platformio-ide-terminal":
+    core: {}
+    style:
+      defaultPanelHeight: "150px"
+      fontFamily: "D2Coding.ttf"
+      fontSize: "15"
   "quick-highlight": {}
+  "split-diff":
+    ignoreWhitespace: true
+  tabs:
+    enableVcsColoring: true
+  "terminal-plus":
+    core: {}
+    style:
+      fontFamily: "D2Coding.ttf"
+      fontSize: "15"
+    toggles:
+      cursorBlink: false
+      runInsertedText: false
   "w3c-validation":
-    cssProfile: "none"
-    cssReportType: "all"
+    cssReportType: "no warnings"
     hideOnNoErrors: true
-    validateOnSave: false
   welcome:
     showOnStartup: false
   whitespace:
@@ -35,3 +67,6 @@
 ".gfm.source":
   "wrap-guide":
     enabled: true
+".text.todo":
+  editor:
+    autoIndent: true
