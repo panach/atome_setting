@@ -1,0 +1,87 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'.scss':
+ '@include md-over':
+   'prefix': 'md-'
+   'body': '@include md-over {\n\t$2\n}//md-over '
+  '@include sm-over':
+    'prefix': 'sm-'
+    'body': '@include sm-over {\n\t$2\n}//sm-over'
+  '@include ct-over':
+    'prefix': 'ct-'
+    'body': '@include ct-over {\n\t$2\n}//ct-over'
+  '@include lg-over':
+    'prefix': 'lg-'
+    'body': '@include lg-over {\n\t$2\n}//lg-over'
+  '@include xs-md':
+    'prefix': 'xs'
+    'body': '@include xs-md {\n\t$2\n}//xs-md'
+'.html':
+  'xe-sr-only':
+    'prefix': 'xeo'
+    'body': 'xe-sr-only'
+  'endElement':
+    'prefix': 'z'
+    'body': '<!-- //$2 -->'
+  'hilg':
+    'prefix': 'hilg'
+    'body': 'xe-hidden-lg'
+  'hixs':
+    'prefix': 'hixs'
+    'body': 'xe-hidden-xs'
+  'hism':
+    'prefix': 'hism'
+    'body': 'xe-hidden-sm'
+  'himd':
+    'prefix': 'himd'
+    'body': 'xe-hidden-md'
+  'vimd':
+    'prefix': 'vimd'
+    'body': 'xe-visible-md'
+  'vixs':
+    'prefix': 'vixs'
+    'body': 'xe-visible-xs'
+  'vism':
+    'prefix': 'vism'
+    'body': 'xe-visible-sm'
+  'vilg':
+    'prefix': 'vilg'
+    'body': 'xe-visible-lg'
+  'dev':
+    'prefix': 'd-'
+    'body': '<!-- [D] $2 -->'
+  '#666':
+    'prefix': '$d'
+    'body': '$default-color'
+  '#333':
+    'prefix': '$b'
+    'body': '$black-color'
+  '#d1d1d1':
+    'prefix': '$g'
+    'body': '$gray-color'
+  '#999':
+    'prefix': '$l'
+    'body': '$light-gray-color'
+    
+
+    
